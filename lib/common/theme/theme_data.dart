@@ -1,0 +1,81 @@
+import 'package:flutter/material.dart';
+
+ThemeData lightMode = ThemeData(
+    brightness: Brightness.light,
+    colorScheme: ColorScheme(
+        brightness: Brightness.light,
+        primary: Colors.grey.shade300,
+        onPrimary: Colors.grey.shade200,
+        secondary: Colors.grey.shade900,
+        onSecondary: Colors.grey.shade700,
+        error: Colors.white,
+        onError: Colors.white,
+        background: Colors.grey.shade200,
+        onBackground: Colors.grey.shade200,
+        surface: Colors.white,
+        onSurface: Colors.white),
+    textTheme: const TextTheme(
+        titleLarge: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 64,
+            fontWeight: FontWeight.w700),
+        titleMedium: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 32,
+            fontWeight: FontWeight.w700),
+        titleSmall: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 16,
+            fontWeight: FontWeight.w700),
+        bodyLarge: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 16,
+            fontWeight: FontWeight.w400),
+        bodyMedium: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 14,
+            fontWeight: FontWeight.w400),
+        bodySmall: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 10,
+            fontWeight: FontWeight.w400)));
+
+ThemeData darkMode = ThemeData(
+    brightness: Brightness.dark,
+    colorScheme: ColorScheme(
+        brightness: Brightness.dark,
+        primary: Colors.grey.shade900,
+        onPrimary: Colors.grey.shade700,
+        secondary: Colors.grey.shade300,
+        onSecondary: Colors.grey.shade200,
+        error: Colors.white,
+        onError: Colors.white,
+        background: Colors.grey.shade900,
+        onBackground: Colors.grey.shade900,
+        surface: Colors.white,
+        onSurface: Colors.white),
+    textTheme: const TextTheme(
+        titleLarge: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 64,
+            fontWeight: FontWeight.w700),
+        titleMedium: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 32,
+            fontWeight: FontWeight.w700),
+        titleSmall: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 16,
+            fontWeight: FontWeight.w700),
+        bodyLarge: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 16,
+            fontWeight: FontWeight.w400),
+        bodyMedium: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 14,
+            fontWeight: FontWeight.w400),
+        bodySmall: TextStyle(
+            fontFamily: 'PlusJakartaSans',
+            fontSize: 10,
+            fontWeight: FontWeight.w400)));
